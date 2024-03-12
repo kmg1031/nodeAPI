@@ -1,7 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-let stores = [];  // 가게 정보 저장
+/**
+ * stores
+ */
+
+let stores = [];
 
 router.get('/', (req, res) => {
   res.status(200).send(stores);

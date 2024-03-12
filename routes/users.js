@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const pool = require('./db'); // DB 연결 설정 가져오기
+const pool = require('./db');
+
+/**
+ * users
+ */
 
 // 모든 유저 조회
 router.get('/', (req, res) => {

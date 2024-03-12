@@ -2,8 +2,8 @@ const mysql = require('mysql');
 
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'localhost', // 예: 'localhost'
-  user: 'root', // 예: 'root'
+  host: 'localhost',
+  user: 'root',
   password: '1111',
   database: 'tableTime'
 });
